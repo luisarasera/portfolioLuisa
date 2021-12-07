@@ -1,10 +1,10 @@
 ---
-title: "Welcome to Portfolio da Luisa"
+title: "Portfolio da Luisa"
 description: |
-  Welcome to our new blog, Portfolio da Luisa. We hope you enjoy 
-  reading what we have to say!
+  Welcome to my new blog, Portfolio da Luisa. This is my very firts portfolio with data science analysis!
+  I learned a lot building this blog and I hope you enjoy it!
 author:
-  - name: Nora Jones 
+  - name: Luisa Raniro
     url: https://example.com/norajones
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
