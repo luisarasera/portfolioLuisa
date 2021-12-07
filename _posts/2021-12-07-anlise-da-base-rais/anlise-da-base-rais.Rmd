@@ -1,0 +1,58 @@
+---
+title: "Análise da base RAIS"
+description: |
+  A short description of the post.
+author:
+  - name: Luisa Raniro
+    url: https://github.io/portfolioLuisa
+date: 2021-12-07
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Esse é meu **primeiro projeto** no portfólio.
+
+## Lista numerada
+
+1.  Luisa
+2.  Murilo
+
+## Imagens
+
+!\[imagem de dados\](link da imagem)
+
+## Código em R
+
+```{undefined echo=TRUE}
+# aqui vamos colocar o código em R
+
+1+1
+
+```
+
+Criamos um campo de código!
+
+Tabela:
+
+```{r}
+
+knitr::kable(mtcars)
+
+```
+
+Imagem/grafico:
+
+```{r, out.width="90%", fig.align='center', dpi = 300, fig.cap="Gráfico da base mtcars"}
+
+plot(mtcars$mpg, mtcars$hp)
+
+```
+
+## Código em linha
+
+Hoje é o dia `r Sys.Date()`.

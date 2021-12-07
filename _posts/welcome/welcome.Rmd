@@ -9,7 +9,7 @@ author:
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
 date: 12-06-2021
-output:
+output: "docs"
   distill::distill_article:
     self_contained: false
 ---
