@@ -1,7 +1,7 @@
 ---
 title: "Portfolio da Luisa"
 description: |
-  Welcome to my new blog, Portfolio da Luisa. This is my very firts portfolio with data science analysis!
+  Welcome to my new blog, Portfolio da Luisa. This is my very first portfolio with data science analysis!
   I learned a lot building this blog and I hope you enjoy it!
 author:
   - name: Luisa Raniro
