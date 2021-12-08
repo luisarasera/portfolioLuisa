@@ -1,7 +1,8 @@
 ---
 title: "Análise da base RAIS"
 description: |
-  A short description of the post.
+  Esta análise tem o objetivo de analisa os salários da base RAIS.
+  A análise foi desenvolvida na Semana de Data Science na Prática da Curso-r
 author:
   - name: Luisa Raniro
     url: https://github.io/portfolioLuisa
@@ -15,7 +16,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Esse é meu **primeiro projeto** no portfólio.
+Esse é meu **primeiro projeto** no [*portfólio*]{.ul}.
+
+~~Riscar um texto~~
 
 ## Lista numerada
 
@@ -24,7 +27,7 @@ Esse é meu **primeiro projeto** no portfólio.
 
 ## Imagens
 
-!\[imagem de dados\](link da imagem)
+!\[\](<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pactoconsultoriajr.com%2Fanalytics-analise-de-dados-e-sua-importancia%2F&psig=AOvVaw0OWL7_TpD9X-R9Pp6HoGxz&ust=1639047915948000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCDhL2H1PQCFQAAAAAdAAAAABAD>)
 
 ## Código em R
 
