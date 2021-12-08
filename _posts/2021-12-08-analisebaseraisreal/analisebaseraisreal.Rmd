@@ -1,0 +1,57 @@
+---
+title: "Analisando dados de salários da RAIS"
+description: |
+  Esta análise tem o objetivo de analisa os salários da base RAIS.
+  A análise foi desenvolvida na Semana de Data Science na Prática da Curso-r
+author:
+  - name: Luisa Raniro
+    url: https://github.io/portfolioLuisa
+date: 2021-12-08
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Nesse relatório queremos responder a pergunta:
+
+"Quanto ganha um Cientista de Dados?"
+
+Para isso vamos usar uma base de dados chamada RAIS (Relação Anual de Informações Sociais)
+
+## Acessando a base dados da RAIS
+
+Vamos usar o datalake da iniciativa [Base dos Dados](https://basedosdados.org/dataset/br-me-rais)
+
+## Carregando os pacotes
+
+```{r message=FALSE, warning=FALSE}
+
+library(bigrquery)
+library(dplyr)
+library(dbplyr)
+
+```
+
+Abaixo está o código que carrega as primieras 5 linhas da tabela com os microdados.
+
+### 1. Criar a conexão
+
+```{r}
+
+conexao <- dbConnect(
+  bigquery(),
+  project = "basedosdados",
+  dataset = "br_me_rais",
+  billing = "dsp-curso-r"
+)
+
+primeiras_cinco_linhas <- collect(head(select(tbl(conexao, "microdados_vinculos"),
+            everything()),5))
+
+primeiras_cinco_linhas
+
+```

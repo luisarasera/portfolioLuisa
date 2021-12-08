@@ -1,8 +1,7 @@
 ---
-title: "Análise da base RAIS"
+title: "Estudando RMarkdown"
 description: |
-  Esta análise tem o objetivo de analisa os salários da base RAIS.
-  A análise foi desenvolvida na Semana de Data Science na Prática da Curso-r
+ Teste de algumas funcionalidades do RMarkdown para o blog.
 author:
   - name: Luisa Raniro
     url: https://github.io/portfolioLuisa
@@ -27,7 +26,7 @@ Esse é meu **primeiro projeto** no [*portfólio*]{.ul}.
 
 ## Imagens
 
-!\[\](<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pactoconsultoriajr.com%2Fanalytics-analise-de-dados-e-sua-importancia%2F&psig=AOvVaw0OWL7_TpD9X-R9Pp6HoGxz&ust=1639047915948000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCDhL2H1PQCFQAAAAAdAAAAABAD>)
+![]()!\[\](<https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pactoconsultoriajr.com%2Fanalytics-analise-de-dados-e-sua-importancia%2F&psig=AOvVaw0OWL7_TpD9X-R9Pp6HoGxz&ust=1639047915948000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCDhL2H1PQCFQAAAAAdAAAAABAD>)
 
 ## Código em R
 

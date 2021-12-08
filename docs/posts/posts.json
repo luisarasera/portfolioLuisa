@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-12-08-analisebaseraisreal/",
+    "title": "Analisando dados de salários da RAIS",
+    "description": "Esta análise tem o objetivo de analisa os salários da base RAIS.\nA análise foi desenvolvida na Semana de Data Science na Prática da Curso-r",
+    "author": [
+      {
+        "name": "Luisa Raniro",
+        "url": "https://github.io/portfolioLuisa"
+      }
+    ],
+    "date": "2021-12-08",
+    "categories": [],
+    "contents": "\nNesse relatório queremos responder a pergunta:\n“Quanto ganha um Cientista de Dados?”\nPara isso vamos usar uma base de dados chamada RAIS (Relação Anual de Informações Sociais)\nAcessando a base dados da RAIS\nVamos usar o datalake da iniciativa Base dos Dados\nCarregando os pacotes\n\n\n\nAbaixo está o código que carrega as primieras 5 linhas da tabela com os microdados.\n1. Criar a conexão\n\n# A tibble: 5 x 66\n    ano sigla_uf id_municipio tipo_vinculo vinculo_ativo_3112\n  <int> <chr>    <chr>        <chr>                     <int>\n1  1985 CE       2314102      1                             1\n2  1985 CE       2314102      1                             1\n3  1985 CE       2314102      1                             1\n4  1985 CE       2314102      1                             1\n5  1985 CE       2314102      1                             1\n# … with 61 more variables: tipo_admissao <chr>, mes_admissao <int>,\n#   mes_desligamento <int>, motivo_desligamento <chr>,\n#   causa_desligamento_1 <chr>, causa_desligamento_2 <chr>,\n#   causa_desligamento_3 <chr>, faixa_tempo_emprego <chr>,\n#   tempo_emprego <dbl>, faixa_horas_contratadas <chr>,\n#   quantidade_horas_contratadas <int>, id_municipio_trabalho <chr>,\n#   quantidade_dias_afastamento <int>, indicador_cei_vinculado <int>,\n#   indicador_trabalho_parcial <int>,\n#   indicador_trabalho_intermitente <int>,\n#   faixa_remuneracao_media_sm <chr>,\n#   valor_remuneracao_media_sm <dbl>, valor_remuneracao_media <dbl>,\n#   faixa_remuneracao_dezembro_sm <chr>,\n#   valor_remuneracao_dezembro_sm <dbl>,\n#   valor_remuneracao_janeiro <dbl>,\n#   valor_remuneracao_fevereiro <dbl>, valor_remuneracao_marco <dbl>,\n#   valor_remuneracao_abril <dbl>, valor_remuneracao_maio <dbl>,\n#   valor_remuneracao_junho <dbl>, valor_remuneracao_julho <dbl>,\n#   valor_remuneracao_agosto <dbl>, valor_remuneracao_setembro <dbl>,\n#   valor_remuneracao_outubro <dbl>,\n#   valor_remuneracao_novembro <dbl>,\n#   valor_remuneracao_dezembro <dbl>, tipo_salario <chr>,\n#   valor_salario_contratual <dbl>, subatividade_ibge <chr>,\n#   subsetor_ibge <chr>, cbo_1994 <chr>, cbo_2002 <chr>,\n#   cnae_1 <chr>, cnae_2 <chr>, cnae_2_subclasse <chr>,\n#   faixa_etaria <chr>, idade <int>, grau_instrucao_1985_2005 <chr>,\n#   grau_instrucao_apos_2005 <chr>, nacionalidade <chr>, sexo <chr>,\n#   raca_cor <chr>, indicador_portador_deficiencia <int>,\n#   tipo_deficiencia <chr>, ano_chegada_brasil <int>,\n#   tamanho_estabelecimento <chr>, tipo_estabelecimento <chr>,\n#   natureza_juridica <chr>, indicador_simples <int>,\n#   bairros_sp <chr>, distritos_sp <chr>, bairros_fortaleza <chr>,\n#   bairros_rj <chr>, regioes_administrativas_df <chr>\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-12-08T09:53:00-03:00",
+    "input_file": "analisebaseraisreal.knit.md"
+  },
+  {
     "path": "posts/2021-12-07-anlise-da-base-rais/",
     "title": "Análise da base RAIS",
     "description": "Esta análise tem o objetivo de analisa os salários da base RAIS.\nA análise foi desenvolvida na Semana de Data Science na Prática da Curso-r",
